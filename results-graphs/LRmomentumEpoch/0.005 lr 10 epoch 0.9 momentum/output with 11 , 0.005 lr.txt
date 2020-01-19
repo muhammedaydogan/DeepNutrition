@@ -1,0 +1,57 @@
+Found 8250 images belonging to 11 classes.
+Found 2750 images belonging to 11 classes.
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow_core/python/ops/resource_variable_ops.py:1630: calling BaseResourceVariable.__init__ (from tensorflow.python.ops.resource_variable_ops) with constraint is deprecated and will be removed in a future version.
+Instructions for updating:
+If using Keras pass *_constraint arguments to layers.
+Downloading data from https://github.com/fchollet/deep-learning-models/releases/download/v0.5/inception_v3_weights_tf_dim_ordering_tf_kernels_notop.h5
+87916544/87910968 [==============================] - 8s 0us/step
+Epoch 1/10
+514/515 [============================>.] - ETA: 0s - loss: 1.0778 - acc: 0.6825Epoch 1/10
+171/515 [========>.....................] - ETA: 35s - loss: 1.3244 - acc: 0.5903
+Epoch 00001: val_loss improved from inf to 1.32439, saving model to best_model_3class.hdf5
+515/515 [==============================] - 307s 597ms/step - loss: 1.0781 - acc: 0.6824 - val_loss: 1.3244 - val_acc: 0.5903
+Epoch 2/10
+514/515 [============================>.] - ETA: 0s - loss: 0.6619 - acc: 0.8174Epoch 1/10
+171/515 [========>.....................] - ETA: 33s - loss: 0.6162 - acc: 0.8315
+Epoch 00002: val_loss improved from 1.32439 to 0.61619, saving model to best_model_3class.hdf5
+515/515 [==============================] - 246s 477ms/step - loss: 0.6613 - acc: 0.8175 - val_loss: 0.6162 - val_acc: 0.8315
+Epoch 3/10
+514/515 [============================>.] - ETA: 0s - loss: 0.4993 - acc: 0.8612Epoch 1/10
+171/515 [========>.....................] - ETA: 32s - loss: 0.8872 - acc: 0.7416
+Epoch 00003: val_loss did not improve from 0.61619
+515/515 [==============================] - 239s 464ms/step - loss: 0.4988 - acc: 0.8614 - val_loss: 0.8872 - val_acc: 0.7416
+Epoch 4/10
+514/515 [============================>.] - ETA: 0s - loss: 0.4307 - acc: 0.8803Epoch 1/10
+171/515 [========>.....................] - ETA: 32s - loss: 0.9309 - acc: 0.7482
+Epoch 00004: val_loss did not improve from 0.61619
+515/515 [==============================] - 237s 460ms/step - loss: 0.4308 - acc: 0.8801 - val_loss: 0.9309 - val_acc: 0.7482
+Epoch 5/10
+514/515 [============================>.] - ETA: 0s - loss: 0.3656 - acc: 0.8941Epoch 1/10
+171/515 [========>.....................] - ETA: 32s - loss: 0.4762 - acc: 0.8706
+Epoch 00005: val_loss improved from 0.61619 to 0.47616, saving model to best_model_3class.hdf5
+515/515 [==============================] - 237s 460ms/step - loss: 0.3653 - acc: 0.8942 - val_loss: 0.4762 - val_acc: 0.8706
+Epoch 6/10
+514/515 [============================>.] - ETA: 0s - loss: 0.3175 - acc: 0.9131Epoch 1/10
+171/515 [========>.....................] - ETA: 33s - loss: 0.6949 - acc: 0.8070
+Epoch 00006: val_loss did not improve from 0.47616
+515/515 [==============================] - 236s 458ms/step - loss: 0.3175 - acc: 0.9132 - val_loss: 0.6949 - val_acc: 0.8070
+Epoch 7/10
+514/515 [============================>.] - ETA: 0s - loss: 0.2821 - acc: 0.9219Epoch 1/10
+171/515 [========>.....................] - ETA: 33s - loss: 0.5190 - acc: 0.8476
+Epoch 00007: val_loss did not improve from 0.47616
+515/515 [==============================] - 235s 456ms/step - loss: 0.2824 - acc: 0.9217 - val_loss: 0.5190 - val_acc: 0.8476
+Epoch 8/10
+514/515 [============================>.] - ETA: 0s - loss: 0.2421 - acc: 0.9348Epoch 1/10
+171/515 [========>.....................] - ETA: 33s - loss: 0.4831 - acc: 0.8702
+Epoch 00008: val_loss did not improve from 0.47616
+515/515 [==============================] - 234s 455ms/step - loss: 0.2420 - acc: 0.9348 - val_loss: 0.4831 - val_acc: 0.8702
+Epoch 9/10
+514/515 [============================>.] - ETA: 0s - loss: 0.2270 - acc: 0.9376Epoch 1/10
+171/515 [========>.....................] - ETA: 34s - loss: 0.4624 - acc: 0.8794
+Epoch 00009: val_loss improved from 0.47616 to 0.46240, saving model to best_model_3class.hdf5
+515/515 [==============================] - 237s 460ms/step - loss: 0.2277 - acc: 0.9375 - val_loss: 0.4624 - val_acc: 0.8794
+Epoch 10/10
+514/515 [============================>.] - ETA: 0s - loss: 0.1964 - acc: 0.9457Epoch 1/10
+171/515 [========>.....................] - ETA: 34s - loss: 0.5036 - acc: 0.8651
+Epoch 00010: val_loss did not improve from 0.46240
+515/515 [==============================] - 235s 456ms/step - loss: 0.1963 - acc: 0.9458 - val_loss: 0.5036 - val_acc: 0.8651

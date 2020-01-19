@@ -1,0 +1,102 @@
+Found 8250 images belonging to 11 classes.
+Found 2750 images belonging to 11 classes.
+Epoch 1/20
+514/515 [============================>.] - ETA: 0s - loss: 2.0806 - acc: 0.3809Epoch 1/20
+171/515 [========>.....................] - ETA: 36s - loss: 1.3335 - acc: 0.7390
+Epoch 00001: val_loss improved from inf to 1.33354, saving model to best_model_3class.hdf5
+515/515 [==============================] - 308s 598ms/step - loss: 2.0798 - acc: 0.3813 - val_loss: 1.3335 - val_acc: 0.7390
+Epoch 2/20
+514/515 [============================>.] - ETA: 0s - loss: 1.2382 - acc: 0.6839Epoch 1/20
+171/515 [========>.....................] - ETA: 33s - loss: 0.7246 - acc: 0.8439
+Epoch 00002: val_loss improved from 1.33354 to 0.72457, saving model to best_model_3class.hdf5
+515/515 [==============================] - 250s 485ms/step - loss: 1.2379 - acc: 0.6839 - val_loss: 0.7246 - val_acc: 0.8439
+Epoch 3/20
+514/515 [============================>.] - ETA: 0s - loss: 0.9194 - acc: 0.7525Epoch 1/20
+171/515 [========>.....................] - ETA: 33s - loss: 0.5544 - acc: 0.8746
+Epoch 00003: val_loss improved from 0.72457 to 0.55438, saving model to best_model_3class.hdf5
+515/515 [==============================] - 249s 484ms/step - loss: 0.9191 - acc: 0.7525 - val_loss: 0.5544 - val_acc: 0.8746
+Epoch 4/20
+514/515 [============================>.] - ETA: 0s - loss: 0.7637 - acc: 0.8023Epoch 1/20
+171/515 [========>.....................] - ETA: 34s - loss: 0.4718 - acc: 0.8911
+Epoch 00004: val_loss improved from 0.55438 to 0.47181, saving model to best_model_3class.hdf5
+515/515 [==============================] - 249s 483ms/step - loss: 0.7636 - acc: 0.8024 - val_loss: 0.4718 - val_acc: 0.8911
+Epoch 5/20
+514/515 [============================>.] - ETA: 0s - loss: 0.6855 - acc: 0.8219Epoch 1/20
+171/515 [========>.....................] - ETA: 34s - loss: 0.4258 - acc: 0.9035
+Epoch 00005: val_loss improved from 0.47181 to 0.42581, saving model to best_model_3class.hdf5
+515/515 [==============================] - 249s 483ms/step - loss: 0.6855 - acc: 0.8220 - val_loss: 0.4258 - val_acc: 0.9035
+Epoch 6/20
+514/515 [============================>.] - ETA: 0s - loss: 0.6147 - acc: 0.8414Epoch 1/20
+171/515 [========>.....................] - ETA: 35s - loss: 0.3927 - acc: 0.9112
+Epoch 00006: val_loss improved from 0.42581 to 0.39265, saving model to best_model_3class.hdf5
+515/515 [==============================] - 249s 483ms/step - loss: 0.6146 - acc: 0.8415 - val_loss: 0.3927 - val_acc: 0.9112
+Epoch 7/20
+514/515 [============================>.] - ETA: 0s - loss: 0.5656 - acc: 0.8574Epoch 1/20
+171/515 [========>.....................] - ETA: 35s - loss: 0.3682 - acc: 0.9178
+Epoch 00007: val_loss improved from 0.39265 to 0.36815, saving model to best_model_3class.hdf5
+515/515 [==============================] - 249s 483ms/step - loss: 0.5651 - acc: 0.8577 - val_loss: 0.3682 - val_acc: 0.9178
+Epoch 8/20
+514/515 [============================>.] - ETA: 0s - loss: 0.5223 - acc: 0.8728Epoch 1/20
+171/515 [========>.....................] - ETA: 36s - loss: 0.3498 - acc: 0.9200
+Epoch 00008: val_loss improved from 0.36815 to 0.34983, saving model to best_model_3class.hdf5
+515/515 [==============================] - 248s 481ms/step - loss: 0.5223 - acc: 0.8728 - val_loss: 0.3498 - val_acc: 0.9200
+Epoch 9/20
+514/515 [============================>.] - ETA: 0s - loss: 0.4872 - acc: 0.8840Epoch 1/20
+171/515 [========>.....................] - ETA: 36s - loss: 0.3354 - acc: 0.9273
+Epoch 00009: val_loss improved from 0.34983 to 0.33542, saving model to best_model_3class.hdf5
+515/515 [==============================] - 248s 481ms/step - loss: 0.4873 - acc: 0.8840 - val_loss: 0.3354 - val_acc: 0.9273
+Epoch 10/20
+514/515 [============================>.] - ETA: 0s - loss: 0.4472 - acc: 0.8934Epoch 1/20
+171/515 [========>.....................] - ETA: 36s - loss: 0.3258 - acc: 0.9254
+Epoch 00010: val_loss improved from 0.33542 to 0.32582, saving model to best_model_3class.hdf5
+515/515 [==============================] - 247s 481ms/step - loss: 0.4468 - acc: 0.8935 - val_loss: 0.3258 - val_acc: 0.9254
+Epoch 11/20
+514/515 [============================>.] - ETA: 0s - loss: 0.4322 - acc: 0.8994Epoch 1/20
+171/515 [========>.....................] - ETA: 37s - loss: 0.3153 - acc: 0.9313
+Epoch 00011: val_loss improved from 0.32582 to 0.31525, saving model to best_model_3class.hdf5
+515/515 [==============================] - 251s 486ms/step - loss: 0.4322 - acc: 0.8994 - val_loss: 0.3153 - val_acc: 0.9313
+Epoch 12/20
+514/515 [============================>.] - ETA: 0s - loss: 0.4021 - acc: 0.9073Epoch 1/20
+171/515 [========>.....................] - ETA: 36s - loss: 0.3066 - acc: 0.9349
+Epoch 00012: val_loss improved from 0.31525 to 0.30656, saving model to best_model_3class.hdf5
+515/515 [==============================] - 248s 481ms/step - loss: 0.4017 - acc: 0.9075 - val_loss: 0.3066 - val_acc: 0.9349
+Epoch 13/20
+514/515 [============================>.] - ETA: 0s - loss: 0.3891 - acc: 0.9125Epoch 1/20
+171/515 [========>.....................] - ETA: 36s - loss: 0.3001 - acc: 0.9368
+Epoch 00013: val_loss improved from 0.30656 to 0.30005, saving model to best_model_3class.hdf5
+515/515 [==============================] - 247s 479ms/step - loss: 0.3890 - acc: 0.9126 - val_loss: 0.3001 - val_acc: 0.9368
+Epoch 14/20
+514/515 [============================>.] - ETA: 0s - loss: 0.3640 - acc: 0.9237Epoch 1/20
+171/515 [========>.....................] - ETA: 36s - loss: 0.3000 - acc: 0.9338
+Epoch 00014: val_loss improved from 0.30005 to 0.29999, saving model to best_model_3class.hdf5
+515/515 [==============================] - 246s 477ms/step - loss: 0.3647 - acc: 0.9234 - val_loss: 0.3000 - val_acc: 0.9338
+Epoch 15/20
+514/515 [============================>.] - ETA: 0s - loss: 0.3500 - acc: 0.9253Epoch 1/20
+171/515 [========>.....................] - ETA: 36s - loss: 0.2921 - acc: 0.9404
+Epoch 00015: val_loss improved from 0.29999 to 0.29212, saving model to best_model_3class.hdf5
+515/515 [==============================] - 246s 477ms/step - loss: 0.3499 - acc: 0.9252 - val_loss: 0.2921 - val_acc: 0.9404
+Epoch 16/20
+514/515 [============================>.] - ETA: 0s - loss: 0.3236 - acc: 0.9353Epoch 1/20
+171/515 [========>.....................] - ETA: 36s - loss: 0.2891 - acc: 0.9419
+Epoch 00016: val_loss improved from 0.29212 to 0.28909, saving model to best_model_3class.hdf5
+515/515 [==============================] - 246s 478ms/step - loss: 0.3234 - acc: 0.9354 - val_loss: 0.2891 - val_acc: 0.9419
+Epoch 17/20
+514/515 [============================>.] - ETA: 0s - loss: 0.2960 - acc: 0.9465Epoch 1/20
+171/515 [========>.....................] - ETA: 36s - loss: 0.2846 - acc: 0.9426
+Epoch 00017: val_loss improved from 0.28909 to 0.28460, saving model to best_model_3class.hdf5
+515/515 [==============================] - 244s 475ms/step - loss: 0.2963 - acc: 0.9463 - val_loss: 0.2846 - val_acc: 0.9426
+Epoch 18/20
+514/515 [============================>.] - ETA: 0s - loss: 0.2963 - acc: 0.9409Epoch 1/20
+171/515 [========>.....................] - ETA: 36s - loss: 0.2808 - acc: 0.9441
+Epoch 00018: val_loss improved from 0.28460 to 0.28081, saving model to best_model_3class.hdf5
+515/515 [==============================] - 245s 475ms/step - loss: 0.2960 - acc: 0.9410 - val_loss: 0.2808 - val_acc: 0.9441
+Epoch 19/20
+514/515 [============================>.] - ETA: 0s - loss: 0.2856 - acc: 0.9435Epoch 1/20
+171/515 [========>.....................] - ETA: 36s - loss: 0.2811 - acc: 0.9426
+Epoch 00019: val_loss did not improve from 0.28081
+515/515 [==============================] - 244s 473ms/step - loss: 0.2861 - acc: 0.9434 - val_loss: 0.2811 - val_acc: 0.9426
+Epoch 20/20
+514/515 [============================>.] - ETA: 0s - loss: 0.2752 - acc: 0.9473Epoch 1/20
+171/515 [========>.....................] - ETA: 37s - loss: 0.2814 - acc: 0.9430
+Epoch 00020: val_loss did not improve from 0.28081
+515/515 [==============================] - 244s 473ms/step - loss: 0.2752 - acc: 0.9474 - val_loss: 0.2814 - val_acc: 0.9430
