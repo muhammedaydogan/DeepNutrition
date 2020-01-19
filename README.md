@@ -1,6 +1,7 @@
 # DeepNutrition
 
 Introduction to DeepNutrition: https://www.youtube.com/watch?v=GGbImsmBeQw <br />
+And The Paper: https://drive.google.com/file/d/1Nuq-Mepx1YVq0IrwNcjdS6hX_tkKevEx/view?usp=sharing
 
 Our term project of BBM406 Fundamentals of Machine Learning Lecture in Hacettepe University Computer Science.
 We tested RESNet-50, VGGNet-16, Inceptionv3 (aka GoogleNet). Results have demonstrated at paper.
